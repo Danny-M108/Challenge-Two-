@@ -1,4 +1,4 @@
-![](tradingwizard.jpg)
+![](https://github.com/Danny-M108/Challenge-Two-/blob/main/Trading%20Wizard.jpg)
 # <div align = "center"> Challenge-Two
 ## <div align = "center"> Team Two
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
