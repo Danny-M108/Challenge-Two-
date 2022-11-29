@@ -1,5 +1,9 @@
-![](```{r image}
+(```{r image}
 include_graphics(c("", ""))
+```
+
+```{r image}
+include_graphics(c("doggy.jpeg", "kitty.jpeg"))
 ```
 
 # <div align = "center"> Challenge-Two
