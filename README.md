@@ -8,7 +8,7 @@
   
 To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning to provide highly accurate investment and trading      recommendations. 
   
-**2. Key Technologies**
+**2. Key Technologies**  
 To use machine learning through the Ensemble Method to filter accurate buy/sell recommendations from three key technical indicationrs.
 
 
