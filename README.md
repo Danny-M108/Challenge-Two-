@@ -2,15 +2,13 @@
 # <div align = "center"> Challenge-Two
 ## <div align = "center"> Team Two
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
-#### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT TO DOMINATE THE MARKETS*
-#### <div align = "center"> *"Through an alchemy of machine learning and technical analysis!"*
-# <div align = "center"> ![](Optimus%20Prime.png)
+#### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT*
 
-**1. What are we trying to achieve?**
+**1. Project Aim**
   
-To build a highly interactive and intuitive trading BOT that optimised machine learning and technicaly analysis to provide highly accurate investment and trading      recommendations. 
+To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning to provide highly accurate investment and trading      recommendations. 
   
-**2. Our key tools included?**  
+**2. Key Technologies**  
   
     a. Technical Analysis MACD, Bollinger Bands & Stochastics.  
     b. Ensemble method classifier.  
