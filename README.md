@@ -10,7 +10,11 @@ To build an interactive and intuitive trading BOT that optimises techical indica
   
 **2. Key Technologies**  
   
-    a. Technical Analysis MACD, Bollinger Bands & Stochastics.  
+   [MACD](https://investopedia.com/terms/m/macd.asp)
+  
+  [Shopify](https://shopify.com)
+  
+  Technical Analysis MACD, Bollinger Bands & Stochastics.  
     b. Ensemble method classifier.  
     c. Optimise weightings between 3 indices (if time permits).  
     d. Lexbot.  
