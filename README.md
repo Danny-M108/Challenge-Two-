@@ -6,14 +6,16 @@
 # <div align = "center"> **INTERACTIVE TRADING & INVESTEMENT WIZARD BOT**
 ### <div align = "center"> *"Providing an alchemy of machine learning and technical anlysis to optimise trading and investment outcomes"*
 
-*1. What are we trying to achieve?*
-To build a highly interaactive and intuitive trading BOT that optimised machine learning and technicaly analysis to provide highly accurate investment and trading      recommendations. 
+**1. What are we trying to achieve?**
   
-*2. OUr key tools included?
-    a. Technical Analysis MACD, Bollinger Bands & Stochastics 
-    b. Ensemble method classifier 
-    c  Optimise weightings between 3 indices (if time permits)
-    d. Lexbot, recommend trading strategy based on different measures (min loss, max prof)
+To build a highly interactive and intuitive trading BOT that optimised machine learning and technicaly analysis to provide highly accurate investment and trading      recommendations. 
+  
+**2. Our key tools included?**  
+  
+    a. Technical Analysis MACD, Bollinger Bands & Stochastics.  
+    b. Ensemble method classifier.  
+    c. Optimise weightings between 3 indices (if time permits).  
+    d. Lexbot.  
 
   
   
