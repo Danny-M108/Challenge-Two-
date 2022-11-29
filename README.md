@@ -1,10 +1,13 @@
-1[](Trading%20Wizard.jpg) ![](
+![](Trading%20Wizard.jpg)
 # <div align = "center"> Challenge-Two
 ## <div align = "center"> Team Two
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
 
-# <div align = "center"> **INTERACTIVE TRADING & INVESTEMENT WIZARD BOT**
-### <div align = "center"> *"Providing an alchemy of machine learning and technical anlysis to optimise trading and investment outcomes"*
+# <div align = "center"> **INTERACTIVE TRADING & INVESTEMENT MACHINE BOT TO DOMINATE THE MARKETS**
+### <div align = "center"> *"Through an alchemy of machine learning muscle and technical anlysis finesse"*
+
+# <div align = "center"> ![]()
+
 
 **1. What are we trying to achieve?**
   
