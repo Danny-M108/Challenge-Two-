@@ -1,4 +1,6 @@
-![]((https://github.com/Danny-M108/Challenge-Two-/blob/main/Trading%20Wizard.jpg, ))
+![](```{r image}
+include_graphics(c("", ""))
+```
 
 # <div align = "center"> Challenge-Two
 ## <div align = "center"> Team Two
