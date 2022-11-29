@@ -3,9 +3,21 @@
 ## <div align = "center"> Team Two
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
 
-#<div align = "center"> **INTERACTIVE TRADING & INVESTEMENT WIZARD BOT**
+# <div align = "center"> **INTERACTIVE TRADING & INVESTEMENT WIZARD BOT**
 ### <div align = "center"> *"Providing an alchemy of machine learning and technical anlysis to optimise trading and investment outcomes"*
-1.	What are we trying to solve? 
+
+*1. What are we trying to achieve?*
+To build a highly interaactive and intuitive trading BOT that optimised machine learning and technicaly analysis to provide highly accurate investment and trading      recommendations. 
+  
+*2. OUr key tools included?
+    a. Technical Analysis MACD, Bollinger Bands & Stochastics 
+    b. Ensemble method classifier 
+    c  Optimise weightings between 3 indices (if time permits)
+    d. Lexbot, recommend trading strategy based on different measures (min loss, max prof)
+
+  
+  
+  
 a.	To utilise machine learning to outcompete the profitability and risk of the S&P 500 (Sharpe Ratio).  
 b.	Determine best trading strategy using Machine Learning and trading technical indicator for S&P 500.
 c.	We are trying to train a model to predict which indicators best predict index prices?
