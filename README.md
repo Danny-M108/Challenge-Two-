@@ -15,7 +15,7 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
    [MACD](https://investopedia.com/terms/m/macd.asp)  
    Moving average convergence/divergence (MACD, or MAC-D) is a trend-following momentum indicator that shows the relationship between two exponential moving averages      (EMAs) of a security’s price. The MACD line is calculated by subtracting the 26-period EMA from the 12-period EMA.
    
-   [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)
+   [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)  
   A Bollinger Band® is a technical analysis tool defined by a set of trendlines plotted two standard deviations (positively and negatively) away from a simple moving average (SMA) of a security's price, but which can be adjusted to user preferences.
    
    
