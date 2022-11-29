@@ -2,10 +2,8 @@
 # <div align = "center"> Challenge-Two
 ## <div align = "center"> Team Two
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
-### <div align = "center"> *gives you*
-## <div align = "center"> ***OPTMUS PRIME***
 #### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT TO DOMINATE THE MARKETS*
-#### <div align = "center"> *"Through an alchemy of machine learning muscle and technical analysis finesse!"*
+#### <div align = "center"> *"Through an alchemy of machine learning and technical analysis!"*
 # <div align = "center"> ![](Optimus%20Prime.png)
 
 **1. What are we trying to achieve?**
