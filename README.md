@@ -1,8 +1,4 @@
-(```{r image}
-include_graphics(c("Trading%20Wizard.jpg", "Optimus%20Prime.png"))
-```
-
-
+1[](Trading%20Wizard.jpg) ![](
 # <div align = "center"> Challenge-Two
 ## <div align = "center"> Team Two
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
