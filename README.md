@@ -1,5 +1,5 @@
 (```{r image}
-include_graphics(c("", "Optimus%20Prime.png"))
+include_graphics(c("Trading%20Wizard.jpg", "Optimus%20Prime.png"))
 ```
 
 
