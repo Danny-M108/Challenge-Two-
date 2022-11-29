@@ -13,6 +13,9 @@ To build an interactive and intuitive trading BOT that optimises techical indica
    [MACD](https://investopedia.com/terms/m/macd.asp)  
    Moving average convergence/divergence (MACD, or MAC-D) is a trend-following momentum indicator that shows the relationship between two exponential moving averages      (EMAs) of a security’s price. The MACD line is calculated by subtracting the 26-period EMA from the 12-period EMA.
   
+  [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
+  The goal of ensemble methods is to combine the predictions of several base estimators built with a given learning algorithm in order to improve generalizability/  robustness over a single estimator...
+  
 
   Technical Analysis MACD, Bollinger Bands & Stochastics.  
     b. Ensemble method classifier.  
