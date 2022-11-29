@@ -3,7 +3,7 @@
 ## <div align = "center"> Team Two
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
 
-#<div align = "center"> INTERACTIVE TRADING & INVESTEMENT WIZARD BOT 
+#<div align = "center"> **INTERACTIVE TRADING & INVESTEMENT WIZARD BOT**
 ### <div align = "center"> *"Providing an alchemy of machine learning and technical anlysis to optimise trading and investment outcomes"*
 1.	What are we trying to solve? 
 a.	To utilise machine learning to outcompete the profitability and risk of the S&P 500 (Sharpe Ratio).  
