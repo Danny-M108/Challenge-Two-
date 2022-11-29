@@ -1,10 +1,7 @@
 (```{r image}
-include_graphics(c("", ""))
+include_graphics(c("", "Optimus%20Prime.png"))
 ```
 
-```{r image}
-include_graphics(c("doggy.jpeg", "kitty.jpeg"))
-```
 
 # <div align = "center"> Challenge-Two
 ## <div align = "center"> Team Two
