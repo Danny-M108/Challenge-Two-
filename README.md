@@ -21,7 +21,9 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
    
   
   [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
-  The goal of ensemble methods is to combine the predictions of several base estimators built with a given learning algorithm in order to improve generalizability/  robustness over a single estimator...
+  The goal of ensemble methods is to combine the predictions of several base estimators built with a given learning algorithm in order to improve generalizability/  robustness over a single estimator.
+  
+  
   
 
   Technical Analysis MACD, Bollinger Bands & Stochastics.  
