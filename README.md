@@ -4,11 +4,12 @@
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
 #### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT*
 
-**1. Project Aim**
+**1. Project Aim:**
   
 To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning to provide highly accurate investment and trading      recommendations. 
   
-**2. Key Technologies**  
+**2. Key Technologies:** 
+  
 To use machine learning through the Ensemble Method to filter accurate buy/sell recommendations from three key technical indicationrs.
 
 
@@ -17,11 +18,17 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
    
    [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)  
   A Bollinger Band® is a technical analysis tool defined by a set of trendlines plotted two standard deviations (positively and negatively) away from a simple moving average (SMA) of a security's price, but which can be adjusted to user preferences.
-   
-   
+  
+  [Exponential Moving Averages](https://investopedia.com/terms/e/ema.asp)  
+   An exponential moving average (EMA) is a type of moving average (MA) that places a greater weight and significance on the most recent data points. The exponential moving average is also referred to as the exponentially weighted moving average. An exponentially weighted moving average reacts more significantly to recent price changes than a simple moving average simple moving average (SMA), which applies an equal weight to all observations in the period.
+  
+  [Relative Strenght Index](https://investopedia.com/terms/r/rsi.asp)  
+  The relative strength index (RSI) is a momentum indicator used in technical analysis. RSI measures the speed and magnitude of a security's recent price changes to evaluate overvalued or undervalued conditions in the price of that security.
   
   [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
   The goal of ensemble methods is to combine the predictions of several base estimators built with a given learning algorithm in order to improve generalizability/  robustness over a single estimator.
+  
+  
   
   
   
