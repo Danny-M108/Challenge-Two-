@@ -37,8 +37,8 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
       1. Logistic Regression
       2. GaussianNB  
       2. XGBClassifier
-      3. [Vocting Classifier](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)  
-         The idea behind the VotingClassifier is to combine conceptually different machine learning classifiers and use a majority vote or the average predicted        probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing models in order to balance out their individual weaknesses.
+      3. [Voting Classifier](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier) 
+         The idea behind the VotingClassifier is to combine conceptually different machine learning classifiers and use a majority vote or the average predicted                probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing models in order to balance out              their individual weaknesses.
     
   
 
