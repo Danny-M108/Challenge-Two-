@@ -19,32 +19,35 @@ We are trying to train a model to predict which indicators best predict index pr
 To use machine learning through the Ensemble Method to filter accurate buy/sell recommendations from three key technical indicationrs.
 
 
-   [MACD](https://investopedia.com/terms/m/macd.asp)  
+   ### 2.1 [MACD](https://investopedia.com/terms/m/macd.asp)  
    Moving average convergence/divergence (MACD, or MAC-D) is a trend-following momentum indicator that shows the relationship between two exponential moving averages      (EMAs) of a security’s price. The MACD line is calculated by subtracting the 26-period EMA from the 12-period EMA.
    
-   [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)  
+   ### 2.2 [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)  
   A Bollinger Band® is a technical analysis tool defined by a set of trendlines plotted two standard deviations (positively and negatively) away from a simple moving average (SMA) of a security's price, but which can be adjusted to user preferences.
   
-  [Exponential Moving Averages](https://investopedia.com/terms/e/ema.asp)  
+  ### 2.3 [Exponential Moving Averages](https://investopedia.com/terms/e/ema.asp)  
    An exponential moving average (EMA) is a type of moving average (MA) that places a greater weight and significance on the most recent data points. The exponential moving average is also referred to as the exponentially weighted moving average. An exponentially weighted moving average reacts more significantly to recent price changes than a simple moving average simple moving average (SMA), which applies an equal weight to all observations in the period.
   
-  [Relative Strength Index](https://investopedia.com/terms/r/rsi.asp)  
+  ### 2.4 [Relative Strength Index](https://investopedia.com/terms/r/rsi.asp)  
   The relative strength index (RSI) is a momentum indicator used in technical analysis. RSI measures the speed and magnitude of a security's recent price changes to evaluate overvalued or undervalued conditions in the price of that security.
   
-  [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
+  ### 2.5 [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
   The goal of ensemble methods is to combine the predictions of several base estimators built with a given learning algorithm in order to improve generalizability/  robustness over a single estimator.  
   Ensemble methods use:
   
- 1. [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic+regression)  
-    In the multiclass case, the training algorithm uses the one-vs-rest (OvR) scheme if the ‘multi_class’ option is set to ‘ovr’, and uses the cross-entropy loss if       the ‘multi_class’ option is set to ‘multinomial’. (Currently the ‘multinomial’ option is supported only by the ‘lbfgs’, ‘sag’, ‘saga’ and ‘newton-cg’ solvers.)
- 2. [GaussianNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html?highlight=gaussiannb#sklearn.naive_bayes.GaussianNB)  
-    Can perform online updates to model parameters via partial_fit. For details on algorithm used to update feature means and variance online, see Stanford CS tech         report STAN-CS-79-773 by Chan, Golub, and LeVeque.
- 3. [XGBClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)  
-    This algorithm builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage       n_classes_ regression trees are fit on the negative gradient of the loss function, e.g. binary or multiclass log loss. Binary classification is a special case         where only a single regression tree is induced.
- 4. [Voting Classifier](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)
-    The idea behind the VotingClassifier is to combine conceptually different machine learning classifiers and use a majority vote or the average predicted                 probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing models in order to balance out             their individual weaknesses.
+  #### 2.5.1 [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic+regression)  
+  In the multiclass case, the training algorithm uses the one-vs-rest (OvR) scheme if the ‘multi_class’ option is set to ‘ovr’, and uses the cross-entropy loss if the ‘multi_class’ option is set to ‘multinomial’. (Currently the ‘multinomial’ option is supported only by the ‘lbfgs’, ‘sag’, ‘saga’ and ‘newton-cg’ 	solvers.)  
+	
+  #### 2.5.2 [GaussianNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html?highlight=gaussiannb#sklearn.naive_bayes.GaussianNB)         
+  Can perform online updates to model parameters via partial_fit. For details on algorithm used to update feature means and variance online, see Stanford CS tech         report STAN-CS-79-773 by Chan, Golub, and LeVeque. 
+	
+  #### 2.5.3 [XGBClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)    
+  This algorithm builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage       n_classes_ regression trees are fit on the negative gradient of the loss function, e.g. binary or multiclass log loss. Binary classification is a special case         where only a single regression tree is induced.  
+	
+  #### 2.5.4 [Voting Classifier](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)  
+  The idea behind the VotingClassifier is to combine conceptually different machine learning classifiers and use a majority vote or the average predicted                 probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing models in order to balance out             their individual weaknesses.
     
-  [Amazon LEX](https://aws.amazon.com/lex/)  
+  ### 2.6 [Amazon LEX](https://aws.amazon.com/lex/)  
   Easily add AI that understands intent, maintains context, and automates simple tasks across many languages.
  
     
