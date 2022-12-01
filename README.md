@@ -4,7 +4,7 @@
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
 #### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT*
 
-#1. Project Aim: 
+## 1. Project Aim:   
 To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning (Ensemble Technique) to provide highly accurate investment and trading recommendations. Importantly the BOT is to reliablely predict how price interacts with technical indicators (EMA) in order to maximise indicator trading performance.   
 To allow for a high degree of "fine tuning" the BOT model relied up the Ensemble Technique 
   
@@ -14,7 +14,7 @@ Determine best trading strategy using Machine Learning and trading technical ind
 We are trying to train a model to predict which indicators best predict index prices?**
 
   
-#2. Key Technologies:# 
+## 2. Key Technologies:
   
 To use machine learning through the Ensemble Method to filter accurate buy/sell recommendations from three key technical indicationrs.
 
@@ -49,9 +49,9 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
  
     
 
-  #3. Key Technology Installations 
+  ## 3. Key Technology Installations: 
   
-  ##3.1 Importing required libraries
+  ### 3.1 Importing required libraries
   
       Installing Yahoo Finance  
       !pip install yfinance  
@@ -60,18 +60,18 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
       !pip install imbalanced-learn  
       !pip install xgboost  
    
-  ##3.2 Creating the feature variables
+  ### 3.2 Creating the feature variables
   
-     def calculated_features(df):
+     'def calculated_features(df):
         df['aboveEMA50'] = np.where(df['Close'] > df['EMA50'], 1, 0)
         df['aboveEMA100'] = np.where(df['Close'] > df['EMA100'], 1, 0)
         df['aboveupperBB'] = np.where(df['Close'] > df['upperBB'], 1, 0)
         df['belowlowerBB'] = np.where(df['Close'] < df['lowerBB'], 1, 0)
         df['oversoldRSI'] = np.where(df['nor_RSI'] < 0.30, 1, 0)
         df['overboughtRSI'] = np.where(df['nor_RSI'] > 0.70, 1, 0)
-        return df
+        return df'
       
-  ##3.3 Creating Ensemble   
+  ### 3.3 Creating Ensemble   
   
      from sklearn.metrics import log_loss  
      clf1 = LogisticRegression(random_state=1)  
@@ -90,7 +90,7 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
     
      The accuracy of the model in percentage is 85.42445274959958  
   
-  3.4 Normalising the data using Standard Scaler
+  ### 3.4 Normalising the data using Standard Scaler
   
      # Create a StandardScaler instance
      scaler = StandardScaler()
@@ -107,7 +107,7 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
      encoder.fit(y_train)
      encoded_Y = encoder.transform(y_train)
   
-  3.5 Adding Layers to Neural Network
+  ### 3.5 Adding Layers to Neural Network
   
       def create_model():
 	    # create model
@@ -121,7 +121,7 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
 	    model.compile(loss='binary_crossentropy', optimizer=sgd, metrics=['accuracy'])
 	    return model
   
-  3.5 Creating Ensemble   
+  ### 3.6 Creating Ensemble   
   
       from sklearn.metrics import log_loss  
       clf1 = LogisticRegression(random_state=1)  
@@ -140,8 +140,11 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
     
      The accuracy of the model in percentage is 85.42445274959958  
   
-  *4. Key Output Examples:
-	
+  ## 4. Key Output Examples:
+
+   ### 4.1 Actual Results
+  
+  ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/Actual_vs_model_cumprod_of_returns.png)
 	
   
   Code is well commented with concise, relevant notes. (5 points)
@@ -198,9 +201,7 @@ Ensemble method classifier
 Optimise weightings between 3 indices (if time permits)
 Lexbot, recommend trading strategy based on different measures (min loss, max prof)
   
-  Actual Results
   
-  ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/Actual_vs_model_cumprod_of_returns.png)
   
   
   
@@ -208,19 +209,6 @@ Lexbot, recommend trading strategy based on different measures (min loss, max pr
     c. Optimise weightings between 3 indices (if time permits).
   
   
-  
-  
-  
-  
-  
-  
-
-MEMBERS:
-Henry Date
-Danny Milsom
-Ling Dong
-Brendan Van Maanen
-Akhil Kavuri
 
 PROPOSED DATA SETS:
 Alpaca Finance , pandas, numpy, pathlib, hvplot, Ensemble, sklearn, SVC classifier
