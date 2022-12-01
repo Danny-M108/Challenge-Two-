@@ -37,15 +37,15 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
   
  1. [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic+regression)  
     In the multiclass case, the training algorithm uses the one-vs-rest (OvR) scheme if the ‘multi_class’ option is set to ‘ovr’, and uses the cross-entropy loss if       the ‘multi_class’ option is set to ‘multinomial’. (Currently the ‘multinomial’ option is supported only by the ‘lbfgs’, ‘sag’, ‘saga’ and ‘newton-cg’ solvers.)
- 2. [GaussianNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html?highlight=gaussiannb#sklearn.naive_bayes.GaussianNB)
+ 2. [GaussianNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html?highlight=gaussiannb#sklearn.naive_bayes.GaussianNB)  
     Can perform online updates to model parameters via partial_fit. For details on algorithm used to update feature means and variance online, see Stanford CS tech      report STAN-CS-79-773 by Chan, Golub, and LeVeque.
-  
- 2. [XGBClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)   
-  This algorithm builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage   n_classes_ regression trees are fit on the negative gradient of the loss function, e.g. binary or multiclass log loss. Binary classification is a special case where only a single regression tree is induced.
+   2. [XGBClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)  
+    This algorithm builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage       n_classes_ regression trees are fit on the negative gradient of the loss function, e.g. binary or multiclass log loss. Binary classification is a special case        where only a single regression tree is induced.
  3. [Voting Classifier](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)
-        The idea behind the VotingClassifier is to combine conceptually different machine learning classifiers and use a majority vote or the average predicted                probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing models in order to balance out              their individual weaknesses.
+    The idea behind the VotingClassifier is to combine conceptually different machine learning classifiers and use a majority vote or the average predicted                 probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing models in order to balance out             their individual weaknesses.
     
-  
+  [Amazon LEX](https://aws.amazon.com/lex/)  
+  Easily add AI that understands intent, maintains context, and automates simple tasks across many languages.
 
   Technical Analysis MACD, Bollinger Bands & Stochastics.  
     b. Ensemble method classifier.  
@@ -174,25 +174,12 @@ Ensemble method classifier
 Optimise weightings between 3 indices (if time permits)
 Lexbot, recommend trading strategy based on different measures (min loss, max prof)
 
-MEMBERS:
-Henry Date
-Danny Milsom
-Ling Dong
-Brendan Van Maanen
-Akhil Kavuri
-
-PROPOSED DATA SETS:
-Alpaca Finance , pandas, numpy, pathlib, hvplot, Ensemble, sklearn, SVC classifier
 
 
-BREAKDOWN ALLOCATION:
-Project Manager: 		Brendan
-GitMaster:			Henry
-Code development:		All
-Interface: 		Henry, Akhil, Danny M, Danny L
-Lexbot			Danny L
-Back end code: 		Henry, Akhil, Danny M, Danny L
-Quality Assurance:		Brendan
+
+
+
+
 
 
 
