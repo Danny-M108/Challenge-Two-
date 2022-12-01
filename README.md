@@ -17,18 +17,18 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
 
 
    ### 2.1 [MACD](https://investopedia.com/terms/m/macd.asp)  
-   Moving average convergence/divergence (MACD, or MAC-D) is a trend-following momentum indicator that shows the relationship between two exponential moving averages      (EMAs) of a security’s price. The MACD line is calculated by subtracting the 26-period EMA from the 12-period EMA. [^1]  
+   Moving average convergence/divergence (MACD, or MAC-D) is a trend-following momentum indicator that shows the relationship between two exponential moving averages      (EMAs) of a security’s price. The MACD line is calculated by subtracting the 26-period EMA from the 12-period EMA.
    
    ### 2.2 [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)  
-  A Bollinger Band® is a technical analysis tool defined by a set of trendlines plotted two standard deviations (positively and negatively) away from a simple moving average (SMA) of a security's price, but which can be adjusted to user preferences. [^1]  
+  A Bollinger Band® is a technical analysis tool defined by a set of trendlines plotted two standard deviations (positively and negatively) away from a simple moving average (SMA) of a security's price, but which can be adjusted to user preferences.
   
   ### 2.3 [Exponential Moving Averages](https://investopedia.com/terms/e/ema.asp)  
-   An exponential moving average (EMA) is a type of moving average (MA) that places a greater weight and significance on the most recent data points. The exponential moving average is also referred to as the exponentially weighted moving average. An exponentially weighted moving average reacts more significantly to recent price changes than a simple moving average simple moving average (SMA), which applies an equal weight to all observations in the period. [^1]  
+   An exponential moving average (EMA) is a type of moving average (MA) that places a greater weight and significance on the most recent data points. The exponential moving average is also referred to as the exponentially weighted moving average. An exponentially weighted moving average reacts more significantly to recent price changes than a simple moving average simple moving average (SMA), which applies an equal weight to all observations in the period.
   
   ### 2.4 [Relative Strength Index](https://investopedia.com/terms/r/rsi.asp)  
-  The relative strength index (RSI) is a momentum indicator used in technical analysis. RSI measures the speed and magnitude of a security's recent price changes to evaluate overvalued or undervalued conditions in the price of that security. [^1]
+  The relative strength index (RSI) is a momentum indicator used in technical analysis. RSI measures the speed and magnitude of a security's recent price changes to evaluate overvalued or undervalued conditions in the price of that security.
 
-[^1](https://www.investopedia.com)	
+[Investopedia](https://www.investopedia.com)	
   
   ### 2.5 [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
   The goal of ensemble methods is to combine the predictions of several base estimators built with a given learning algorithm in order to improve generalizability/  robustness over a single estimator.  
