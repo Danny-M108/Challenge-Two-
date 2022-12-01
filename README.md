@@ -5,15 +5,12 @@
 #### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT*
 
 ## 1. Project Aim:   
-To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning (Ensemble Technique) to provide highly accurate investment and trading recommendations. Importantly the BOT is to reliablely predict how price interacts with technical indicators (EMA) in order to maximise indicator trading performance.   
-To allow for a high degree of "fine tuning" the BOT model relied up the Ensemble Technique 
-  
-  
-***To utilise machine learning to outcompete the profitability and risk of the S&P 500 (Sharpe Ratio).  
-Determine best trading strategy using Machine Learning and trading technical indicator for S&P 500.
-We are trying to train a model to predict which indicators best predict index prices?**
+To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning (Ensemble method) to provide highly accurate investment and trading recommendations. Importantly the BOT is to reliablely predict how price interacts with technical indicators (EMA) in order to maximise indicator trading performance.   
 
-  
+The current version focuses on the SP500, the Nasdaq 100 and Dow 30 indices. However the model can be for individual stocks - subject to data availability. 
+	
+A key feature of the BOT is to allow for a high degree of "fine tuning" through the Ensemble method. 
+   
 ## 2. Key Technologies:
   
 To use machine learning through the Ensemble Method to filter accurate buy/sell recommendations from three key technical indicationrs.
