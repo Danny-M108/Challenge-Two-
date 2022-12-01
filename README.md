@@ -90,7 +90,7 @@ Lexbot, recommend trading strategy based on different measures (min loss, max pr
   
   Actual Results
   
-  ![](
+  ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/Actual_vs_model_cumprod_of_returns.png)
   
   
   
