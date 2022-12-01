@@ -4,7 +4,7 @@
 ### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
 #### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT*
 
-**1. Project Aim:**  
+#1. Project Aim: 
 To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning (Ensemble Technique) to provide highly accurate investment and trading recommendations. Importantly the BOT is to reliablely predict how price interacts with technical indicators (EMA) in order to maximise indicator trading performance.   
 To allow for a high degree of "fine tuning" the BOT model relied up the Ensemble Technique 
   
@@ -14,7 +14,7 @@ Determine best trading strategy using Machine Learning and trading technical ind
 We are trying to train a model to predict which indicators best predict index prices?**
 
   
-**2. Key Technologies:** 
+#2. Key Technologies:# 
   
 To use machine learning through the Ensemble Method to filter accurate buy/sell recommendations from three key technical indicationrs.
 
@@ -46,14 +46,12 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
     
   [Amazon LEX](https://aws.amazon.com/lex/)  
   Easily add AI that understands intent, maintains context, and automates simple tasks across many languages.
-
  
-    c. Optimise weightings between 3 indices (if time permits).  
     
 
-  **3. Key Technology Installations** 
+  #3. Key Technology Installations 
   
-  3.1 Importing required libraries
+  ##3.1 Importing required libraries
   
       Installing Yahoo Finance  
       !pip install yfinance  
@@ -62,7 +60,7 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
       !pip install imbalanced-learn  
       !pip install xgboost  
    
-  3.2 Creating the feature variables
+  ##3.2 Creating the feature variables
   
      def calculated_features(df):
         df['aboveEMA50'] = np.where(df['Close'] > df['EMA50'], 1, 0)
@@ -73,7 +71,7 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
         df['overboughtRSI'] = np.where(df['nor_RSI'] > 0.70, 1, 0)
         return df
       
-  3.3 Creating Ensemble   
+  ##3.3 Creating Ensemble   
   
      from sklearn.metrics import log_loss  
      clf1 = LogisticRegression(random_state=1)  
@@ -142,7 +140,9 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
     
      The accuracy of the model in percentage is 85.42445274959958  
   
-  
+  *4. Key Output Examples:
+	
+	
   
   Code is well commented with concise, relevant notes. (5 points)
 GitHub README file includes a concise project overview. (2 points)
@@ -205,7 +205,7 @@ Lexbot, recommend trading strategy based on different measures (min loss, max pr
   
   
   
-  
+    c. Optimise weightings between 3 indices (if time permits).
   
   
   
