@@ -28,7 +28,7 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
   [Exponential Moving Averages](https://investopedia.com/terms/e/ema.asp)  
    An exponential moving average (EMA) is a type of moving average (MA) that places a greater weight and significance on the most recent data points. The exponential moving average is also referred to as the exponentially weighted moving average. An exponentially weighted moving average reacts more significantly to recent price changes than a simple moving average simple moving average (SMA), which applies an equal weight to all observations in the period.
   
-  [Relative Strenght Index](https://investopedia.com/terms/r/rsi.asp)  
+  [Relative Strength Index](https://investopedia.com/terms/r/rsi.asp)  
   The relative strength index (RSI) is a momentum indicator used in technical analysis. RSI measures the speed and magnitude of a security's recent price changes to evaluate overvalued or undervalued conditions in the price of that security.
   
   [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
@@ -38,19 +38,18 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
  1. [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic+regression)  
     In the multiclass case, the training algorithm uses the one-vs-rest (OvR) scheme if the ‘multi_class’ option is set to ‘ovr’, and uses the cross-entropy loss if       the ‘multi_class’ option is set to ‘multinomial’. (Currently the ‘multinomial’ option is supported only by the ‘lbfgs’, ‘sag’, ‘saga’ and ‘newton-cg’ solvers.)
  2. [GaussianNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html?highlight=gaussiannb#sklearn.naive_bayes.GaussianNB)  
-    Can perform online updates to model parameters via partial_fit. For details on algorithm used to update feature means and variance online, see Stanford CS tech      report STAN-CS-79-773 by Chan, Golub, and LeVeque.
-   2. [XGBClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)  
-    This algorithm builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage       n_classes_ regression trees are fit on the negative gradient of the loss function, e.g. binary or multiclass log loss. Binary classification is a special case        where only a single regression tree is induced.
- 3. [Voting Classifier](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)
+    Can perform online updates to model parameters via partial_fit. For details on algorithm used to update feature means and variance online, see Stanford CS tech         report STAN-CS-79-773 by Chan, Golub, and LeVeque.
+ 3. [XGBClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)  
+    This algorithm builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage       n_classes_ regression trees are fit on the negative gradient of the loss function, e.g. binary or multiclass log loss. Binary classification is a special case         where only a single regression tree is induced.
+ 4. [Voting Classifier](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)
     The idea behind the VotingClassifier is to combine conceptually different machine learning classifiers and use a majority vote or the average predicted                 probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing models in order to balance out             their individual weaknesses.
     
   [Amazon LEX](https://aws.amazon.com/lex/)  
   Easily add AI that understands intent, maintains context, and automates simple tasks across many languages.
 
-  Technical Analysis MACD, Bollinger Bands & Stochastics.  
-    b. Ensemble method classifier.  
+ 
     c. Optimise weightings between 3 indices (if time permits).  
-    d. Lexbot.  
+    
 
   
   
