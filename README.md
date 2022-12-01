@@ -1,7 +1,7 @@
 ![](Trading%20Wizard.jpg)
 # <div align = "center"> Challenge-Two
 ## <div align = "center"> Team Two
-### <div align = "center"> Akhil Kavuri, Brendan Van Maaneen, Danny Milsom, Henry Date and Ling Dong
+### <div align = "center"> Akhil Kavuri, Brendan Van Maanen, Danny Milsom, Henry Date and Ling Dong
 #### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT*
 
 ## 1. Project Aim:   
@@ -218,7 +218,7 @@ weighted avg       0.79      0.85      0.81      1873
        		'oversoldRSI', 'overboughtRSI', 'MACD', 'norm_MACD'
 		
 
-   #### 4.6 Actual Results
+   #### 4.6 Actual Price
   
   ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/Actual_vs_model_cumprod_of_returns.png)
 	
