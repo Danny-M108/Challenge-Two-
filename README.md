@@ -51,6 +51,103 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
     c. Optimise weightings between 3 indices (if time permits).  
     
 
+  **3. Key Technology Installations** 
+  
+  3.1 Importing required libraries
+  
+      Installing Yahoo Finance  
+      !pip install yfinance  
+      !pip install pandas_datareader  
+      !pip install scikeras  
+      !pip install imbalanced-learn  
+      !pip install xgboost  
+   
+  3.2 Creating the feature variables
+  
+     def calculated_features(df):
+        df['aboveEMA50'] = np.where(df['Close'] > df['EMA50'], 1, 0)
+        df['aboveEMA100'] = np.where(df['Close'] > df['EMA100'], 1, 0)
+        df['aboveupperBB'] = np.where(df['Close'] > df['upperBB'], 1, 0)
+        df['belowlowerBB'] = np.where(df['Close'] < df['lowerBB'], 1, 0)
+        df['oversoldRSI'] = np.where(df['nor_RSI'] < 0.30, 1, 0)
+        df['overboughtRSI'] = np.where(df['nor_RSI'] > 0.70, 1, 0)
+        return df
+      
+  3.3 Creating Ensemble   
+  
+     from sklearn.metrics import log_loss  
+     clf1 = LogisticRegression(random_state=1)  
+     #clf2 = RandomForestClassifier(n_estimators=50, random_state=1)  
+     clf3 = GaussianNB()  
+     clf2 = XGBClassifier()  
+     eclf = VotingClassifier(estimators=[('lr', clf1), ('xgb', clf2), ('gnb', clf3)],voting='hard')  
+
+     eclf.fit(X_train, y_train)
+ 
+     # predicting the output on the test dataset
+     pred_final = eclf.predict(X_test)
+ 
+     # printing log loss between actual and predicted value
+     print("The accuracy of the model in percentage is",(accuracy_score(y_test, pred_final)*100))  
+    
+     The accuracy of the model in percentage is 85.42445274959958  
+  
+  3.4 Normalising the data using Standard Scaler
+  
+     # Create a StandardScaler instance
+     scaler = StandardScaler()
+
+     # Fit the scaler to the features training dataset
+     X_scaler = scaler.fit(X_train)
+
+     # Scale both the training and testing data from the features dataset
+     X_train_scaled = X_scaler.transform(X_train)
+     X_test_scaled = X_scaler.transform(X_test)
+
+     # encoding class labels as integers
+     encoder = LabelEncoder()
+     encoder.fit(y_train)
+     encoded_Y = encoder.transform(y_train)
+  
+  3.5 Adding Layers to Neural Network
+  
+      def create_model():
+	    # create model
+	    model = Sequential()
+	    model.add(Dropout(0.2, input_shape=(21,)))
+	    model.add(Dense(10, activation='relu', kernel_constraint=MaxNorm(3)))
+	    model.add(Dense(5, activation='relu', kernel_constraint=MaxNorm(3)))
+	    model.add(Dense(1, activation='sigmoid'))
+	    # Compile model
+	    sgd = SGD(learning_rate=0.1, momentum=0.9)
+	    model.compile(loss='binary_crossentropy', optimizer=sgd, metrics=['accuracy'])
+	    return model
+  
+  3.5 Creating Ensemble   
+  
+      from sklearn.metrics import log_loss  
+      clf1 = LogisticRegression(random_state=1)  
+      #clf2 = RandomForestClassifier(n_estimators=50, random_state=1)  
+      clf3 = GaussianNB()  
+      clf2 = XGBClassifier()  
+      eclf = VotingClassifier(estimators=[('lr', clf1), ('xgb', clf2), ('gnb', clf3)],voting='hard')  
+
+      eclf.fit(X_train, y_train)
+ 
+     # predicting the output on the test dataset
+     pred_final = eclf.predict(X_test)
+ 
+     # printing log loss between actual and predicted value
+     print("The accuracy of the model in percentage is",(accuracy_score(y_test, pred_final)*100))  
+    
+     The accuracy of the model in percentage is 85.42445274959958  
+  
+  
+  
+  Code is well commented with concise, relevant notes. (5 points)
+GitHub README file includes a concise project overview. (2 points)
+GitHub README file includes detailed usage and installation instructions. (3 points)
+GitHub README includes either examples of the application, or the results and a summary of the analysis. (5 points)
   
   
   
