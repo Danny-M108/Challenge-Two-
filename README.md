@@ -5,11 +5,14 @@
 #### <div align = "center"> *AN INTERACTIVE TRADING & INVESTEMENT MACHINE BOT*
 
 **1. Project Aim:**  
-To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning to provide highly accurate investment and trading      recommendations. Predicting how price interacts with technical indicator (EMA) Testing models to maximise indicator performance
+To build an interactive and intuitive trading BOT that optimises techical indicators through machine learning (Ensemble Technique) to provide highly accurate investment and trading recommendations. Importantly the BOT is to reliablely predict how price interacts with technical indicators (EMA) in order to maximise indicator trading performance.   
+To allow for a high degree of "fine tuning" the BOT model relied up the Ensemble Technique 
+  
+  
+***To utilise machine learning to outcompete the profitability and risk of the S&P 500 (Sharpe Ratio).  
+Determine best trading strategy using Machine Learning and trading technical indicator for S&P 500.
+We are trying to train a model to predict which indicators best predict index prices?**
 
-  What is the feature set? Prediction set? 
-Feature set: date, high, low, open, close
-Prediction set: indicator crossing EMA 30
   
 **2. Key Technologies:** 
   
@@ -30,6 +33,12 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
   
   [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
   The goal of ensemble methods is to combine the predictions of several base estimators built with a given learning algorithm in order to improve generalizability/  robustness over a single estimator.
+  
+      1. Logistic Regression
+      2. GaussianNB  
+      2. XGBClassifier
+      3. [Vocting Classifier](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)  
+         The idea behind the VotingClassifier is to combine conceptually different machine learning classifiers and use a majority vote or the average predicted        probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing models in order to balance out their individual weaknesses.
     
   
 
@@ -129,9 +138,7 @@ Quality Assurance:		Brendan
   Target: 
 
 What are we trying to solve? 
-To utilise machine learning to outcompete the profitability and risk of the S&P 500 (Sharpe Ratio).  
-Determine best trading strategy using Machine Learning and trading technical indicator for S&P 500.
-We are trying to train a model to predict which indicators best predict index prices?
+
 
 What is the machine learning component predicting?
 Predicting how price interacts with technical indicator (EMA)
