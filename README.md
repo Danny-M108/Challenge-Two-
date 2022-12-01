@@ -30,10 +30,7 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
   
   [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)  
   The goal of ensemble methods is to combine the predictions of several base estimators built with a given learning algorithm in order to improve generalizability/  robustness over a single estimator.
-  
-  
-  
-  
+    
   
 
   Technical Analysis MACD, Bollinger Bands & Stochastics.  
@@ -91,7 +88,20 @@ Ensemble method classifier
 Optimise weightings between 3 indices (if time permits)
 Lexbot, recommend trading strategy based on different measures (min loss, max prof)
   
-  Results
+  Actual Results
+  
+  ![](
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 
@@ -173,15 +183,4 @@ Back end code: 		Henry, Akhil, Danny M, Danny L
 Quality Assurance:		Brendan
 
 
-![](Shopify.png.png)
-# <div align="center"> Shopify-Case-Study
-## <div align="center"> Danny Milsom
-### <div align="center">"Start your businesss journey with Shopify
-#### <div align="center"> Try Shopify for free and explore all the tools and services you need to start, run, and grow your business."  
-[Shopify](https://shopify.com)
-### When was the company incorporated?
-Shopify was founded in 2004. 
-### Who are the founders of the company?
-Tobias Lutke and Scott Lake founded Shopify. 
-### How did the idea for the company (or project) come about?
-After Tobias and Scott had a poor experience attempting to open Snowdevil, an online store for snowboarding equipment.  
+
