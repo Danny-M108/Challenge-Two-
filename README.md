@@ -143,11 +143,81 @@ To use machine learning through the Ensemble Method to filter accurate buy/sell 
     
      The accuracy of the model in percentage is 85.42445274959958  
   
-  ## 4. Key Output Examples:
+  ## 4. Key Input\Output Examples:
+	
+ ### 4.1 
+	for clf, label in zip([clf1, clf2, clf3,eclf], ['Logistic Regression', 'Random Forest', 'Naive Bayes', 'Ensemble']):
+    	    scores = cross_val_score(clf, X_test, y_test, scoring='accuracy', cv=5)
+            print("Accuracy: %0.2f (+/- %0.2f) [%s]" % (scores.mean(), scores.std(), label))
 
-   ### 4.1 Actual Results
+	Accuracy: 0.45 (+/- 0.00) [Logistic Regression]
+        Accuracy: 1.00 (+/- 0.00) [Random Forest]
+        Accuracy: 0.50 (+/- 0.02) [Naive Bayes]
+        Accuracy: 0.85 (+/- 0.01) [Ensemble]
+	
+### 4.2
+	from sklearn.metrics import classification_report
+	testing_signal_predictions = eclf.predict(X_test)
+	 # Evaluate the model's ability to predict the trading signal for the testing data
+	ensemble_classification_report = classification_report(y_test, testing_signal_predictions)
+	print(ensemble_classification_report)
+      
+	precision    recall  f1-score   support
+
+           0       0.75      1.00      0.86       839
+           1       1.00      0.89      0.94       853
+           2       0.00      0.00      0.00       181
+
+    accuracy                           0.85      1873
+   macro avg       0.58      0.63      0.60      1873
+weighted avg       0.79      0.85      0.81      1873
+
+### 4.3 
+ 	# Create a new empty predictions DataFrame using code provided below.
+	predictions_df = pd.DataFrame(index=X_test.index)
+	predictions_df["predicted_signal"] = testing_signal_predictions
+	predictions_df["actual_returns"] = df["Close"].pct_change()
+	predictions_df["trading_algorithm_returns"] = predictions_df["actual_returns"] * predictions_df["predicted_signal"]
+	predictions_df.head()
+	
+	predicted_signal	actual_returns	trading_algorithm_returns
+	Date			
+	2001-11-09	0	0.001066	0.000000
+	2019-06-13	1	0.004126	0.004126
+	2011-01-14	1	0.007245	0.007245
+	2020-09-24	0	0.002665	0.000000
+	1999-07-09	1	0.005929	0.005929
+
+### 4.4
+	import hvplot.pandas
+	(((1 + predictions_df[["actual_returns"]]).cumprod()).hvplot(label="Actual Returns", title = ('Cumulative Product Returns of Actual vs Trading Algorithm 	Returns'))) * (((1 + predictions_df[["trading_algorithm_returns"]]).cumprod()).hvplot(label="Trading Algorithm Returns"))
+	
+#### 4.5
+	def predict_timeseries(df):
+    for i in range(len(df)):
+        prediction = eclf.predict(X_test)
+        #####print('prediction', prediction)
+        model_df['Buy'][i] = prediction
+    print(df.head())    
+        
+    return df
+	
+	
+	'High', 'Low', 'Open', 'Close', 'Volume', 'Adj Close', 'EMA50',
+       		'EMA100', 'upperBB', 'middleBB', 'lowerBB', 'RSI', 'nor_RSI',
+      		'aboveEMA50', 'aboveEMA100', 'aboveupperBB', 'belowlowerBB',
+       		'oversoldRSI', 'overboughtRSI', 'MACD', 'norm_MACD'
+		
+
+   #### 4.6 Actual Results
   
   ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/Actual_vs_model_cumprod_of_returns.png)
+	
+	
+
+	
+	
+	
 	
   
   Code is well commented with concise, relevant notes. (5 points)
