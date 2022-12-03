@@ -13,7 +13,7 @@ A key feature of the BOT is to allow for a high degree of "fine tuning" through 
    
 ## 2. Key Technologies:
   
-To use machine learning through the Ensemble Method to filter accurate buy/sell recommendations from three key technical indicationrs.
+To use machine learning through the Ensemble Method to filter accurate buy/sell recommendations from four key technical indicators.
 
 
    ### 2.1 [MACD](https://investopedia.com/terms/m/macd.asp)  
@@ -228,116 +228,31 @@ weighted avg       0.79      0.85      0.81      1873
 ## 5 Future Developments and Enhancements
 	
   
-  Code is well commented with concise, relevant notes. (5 points)
-GitHub README file includes a concise project overview. (2 points)
-GitHub README file includes detailed usage and installation instructions. (3 points)
-GitHub README includes either examples of the application, or the results and a summary of the analysis. (5 points)
+
   
   
   
-a.	To utilise machine learning to outcompete the profitability and risk of the S&P 500 (Sharpe Ratio).  
-b.	Determine best trading strategy using Machine Learning and trading technical indicator for S&P 500.
-c.	We are trying to train a model to predict which indicators best predict index prices?
 
 
-2.	What is the machine learning component predicting?
-a.	Predicting how price interacts with technical indicator (EMA)
-b.	Testing models to maximise indicator performance
-c.	What is the feature set? Prediction set? 
-i.	Feature set: date, high, low, open, close
-ii.	Prediction set: indicator crossing EMA 30
-Target: 
-
-What are we trying to solve? 
-To utilise machine learning to outcompete the profitability and risk of the S&P 500 (Sharpe Ratio).  
-Determine best trading strategy using Machine Learning and trading technical indicator for S&P 500.
-We are trying to train a model to predict which indicators best predict index prices?
-
-What is the machine learning component predicting?
-Predicting how price interacts with technical indicator (EMA)
-Testing models to maximise indicator performance
-What is the feature set? Prediction set? 
-Feature set: date, high, low, open, close
-Prediction set: indicator crossing EMA 30
-
-What are our approaches?
-Timeframe data is based on weekly high, low close and open from 2006. 
-To outperform the index due to the ability to execute both long and short trades
-
-
-Stretch:
-What are we trying to solve? 
-To outcompete the profitability and risk of the S&P 500 using the Sharpe Ratio, sortino ratio. 
-Determine best trading strategy using Machine Learning and trading technical indicators for S&P 500, DOW30, NASDAQ 100.
-We are trying to train a model to predict which indicators best predict index prices?
-Goal is to outperform indice performance due to long and short trading ability. 
-
-What is the machine learning component predicting?
-Predicting how price interacts with technical indicators (EMA, MACD, Bollinger Bands & Stochastics)
-What other ML libs would you use? Know how to apply it (FB prophet, Kera, tensorflow, sklearn)
-
-What are our approaches?
-MACD, Bollinger Bands & Stochastics 
-Ensemble method classifier 
-Optimise weightings between 3 indices (if time permits)
-Lexbot, recommend trading strategy based on different measures (min loss, max prof)
-  
-  
-  
-  
-  
-  
-    c. Optimise weightings between 3 indices (if time permits).
   
   
 
-PROPOSED DATA SETS:
-Alpaca Finance , pandas, numpy, pathlib, hvplot, Ensemble, sklearn, SVC classifier
 
 
-BREAKDOWN ALLOCATION:
-Project Manager: 		Brendan
-GitMaster:			Henry
-Code development:		All
-Interface: 		Henry, Akhil, Danny M, Danny L
-Lexbot			Danny L
-Back end code: 		Henry, Akhil, Danny M, Danny L
-Quality Assurance:		Brendan
+
+
 
   
-  Target: 
-
-What are we trying to solve? 
+ 
 
 
-What is the machine learning component predicting?
-Predicting how price interacts with technical indicator (EMA)
-Testing models to maximise indicator performance
-What is the feature set? Prediction set? 
-Feature set: date, high, low, open, close
-Prediction set: indicator crossing EMA 30
-
-What are our approaches?
-Timeframe data is based on weekly high, low close and open from 2006. 
-To outperform the index due to the ability to execute both long and short trades
 
 
-Stretch:
-What are we trying to solve? 
-To outcompete the profitability and risk of the S&P 500 using the Sharpe Ratio, sortino ratio. 
-Determine best trading strategy using Machine Learning and trading technical indicators for S&P 500, DOW30, NASDAQ 100.
-We are trying to train a model to predict which indicators best predict index prices?
-Goal is to outperform indice performance due to long and short trading ability. 
 
-What is the machine learning component predicting?
-Predicting how price interacts with technical indicators (EMA, MACD, Bollinger Bands & Stochastics)
-What other ML libs would you use? Know how to apply it (FB prophet, Kera, tensorflow, sklearn)
 
-What are our approaches?
-MACD, Bollinger Bands & Stochastics 
-Ensemble method classifier 
-Optimise weightings between 3 indices (if time permits)
-Lexbot, recommend trading strategy based on different measures (min loss, max prof)
+
+
+
 
 
 
