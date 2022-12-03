@@ -237,9 +237,33 @@ weighted avg       0.79      0.85      0.81      1873
 
 ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/feature_selection_AXJO_yf_daily.png)
 	
-## 5 Future Developments and Enhancements
+## 5 Future Developments and Enhancements:
+
+Future developments and enhancements to include:
+
+1. Risk and Return measurement and analysis through tools such as the Sharpe and Sortino ratios. 
+
+2. Profit and trading outcome comparison against indice performance. For example did the model outperform a simple 12 position (long or short) on the SP500. 
+
+3. Further technical indicators.
+
+4. Further fine tuning of the Ensemble code.
 	
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
   
