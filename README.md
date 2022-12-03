@@ -217,17 +217,23 @@ weighted avg       0.79      0.85      0.81      1873
        		'oversoldRSI', 'overboughtRSI', 'MACD', 'norm_MACD'
 		
 
-   #### 4.6 Actual Price
+   #### 4.6 Actual vs Trading Algorithm Returns
   
   ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/Actual_vs_model_cumprod_of_returns.png)
-	
+
+ #### 4.7 Cumulative Product Returns of Actual vs Trading Algorithm Returns
 	
 ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/actual_vs_model_cumprod_of_returns_spy_daily_yf.png)
 
+ #### 4.8 Buy Signals
 
 ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/chart_buy_SPY-daily_yf.png)	
 
+ #### 4.9 ???
+
 ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/feature_selection.png)
+
+ #### 4.9 ????
 
 ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/feature_selection_AXJO_yf_daily.png)
 	
