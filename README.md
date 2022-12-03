@@ -222,7 +222,7 @@ weighted avg       0.79      0.85      0.81      1873
   ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/Actual_vs_model_cumprod_of_returns.png)
 	
 	
-
+![](https://github.com/Danny-M108/Challenge-Two-/blob/main/actual_vs_model_cumprod_of_returns_spy_daily_yf.png)
 	
 	
 ## 5 Future Developments and Enhancements
