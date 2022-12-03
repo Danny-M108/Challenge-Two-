@@ -226,6 +226,8 @@ weighted avg       0.79      0.85      0.81      1873
 
 
 ![](https://github.com/Danny-M108/Challenge-Two-/blob/main/chart_buy_SPY-daily_yf.png)	
+
+![]https://github.com/Danny-M108/Challenge-Two-/blob/main/feature_selection.png
 	
 ## 5 Future Developments and Enhancements
 	
